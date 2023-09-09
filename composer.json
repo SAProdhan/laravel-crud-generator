@@ -1,0 +1,30 @@
+{
+    "name": "sakeef/crud-generator",
+    "description": "A simple model, view, controller, migration and route generator for a crud operation",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sakeef\\CrudGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sakeef Ameer Prodhan",
+            "email": "saprodhan.sa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sakeef\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+    
+}
